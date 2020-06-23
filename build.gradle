@@ -27,4 +27,8 @@ repositories {
 dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web'
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test'
+
+    // Project Lombok
+    implementation group: 'org.projectlombok', name: 'lombok'
+
 }
